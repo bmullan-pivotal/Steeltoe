@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Steeltoe.Extensions.Configuration.ConfigServerBase</name>
+    </assembly>
+    <members>
+        <member name="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings">
+            <summary>
+            Holds the settings used to configure the Spring Cloud Config Server provider
+            <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider"/>.
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_URI">
+            <summary>
+            Default Config Server address used by provider
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_ENVIRONMENT">
+            <summary>
+            Default enironment used when accessing configuration data
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_FAILFAST">
+            <summary>
+            Default fail fast setting
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_PROVIDER_ENABLED">
+            <summary>
+            Default Config Server provider enabled setting
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_CERTIFICATE_VALIDATION">
+            <summary>
+            Default certifcate validation enabled setting
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_MAX_RETRY_ATTEMPTS">
+            <summary>
+            Default number of retries to be attempted
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_INITIAL_RETRY_INTERVAL">
+            <summary>
+            Default initial retry interval in milliseconds
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_RETRY_MULTIPLIER">
+            <summary>
+            Default multiplier for next retry interval
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_MAX_RETRY_INTERVAL">
+            <summary>
+            Default initial retry interval in milliseconds
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_RETRY_ENABLED">
+            <summary>
+            Default retry enabled setting
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.DEFAULT_TIMEOUT_MILLISECONDS">
+            <summary>
+            Default timeout in milliseconds
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings"/> class.
+            </summary>
+            <remarks>Initialize Config Server client settings with defaults</remarks>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Uri">
+            <summary>
+            Gets or sets the Config Server address
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Enabled">
+            <summary>
+            Gets or sets a value indicating whether enables/Disables the Config Server provider
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Environment">
+            <summary>
+            Gets or sets the environment used when accessing configuration data
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Name">
+            <summary>
+            Gets or sets the application name used when accessing configuration data
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Label">
+            <summary>
+            Gets or sets the label used when accessing configuration data
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Username">
+            <summary>
+            Gets or sets the username used when accessing the Config Server
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Password">
+            <summary>
+            Gets or sets the password used when accessing the Config Server
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.FailFast">
+            <summary>
+            Gets or sets a value indicating whether enables/Disables failfast behavior
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.ValidateCertificates">
+            <summary>
+            Gets or sets a value indicating whether enables/Disables whether provider validates server certificates
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RetryEnabled">
+            <summary>
+            Gets or sets a value indicating whether enables/Disables config server client retry on failures
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RetryInitialInterval">
+            <summary>
+            Gets or sets initial retry interval in milliseconds
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RetryMaxInterval">
+            <summary>
+            Gets or sets max retry interval in milliseconds
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RetryMultiplier">
+            <summary>
+             Gets or sets multiplier for next retry interval
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RetryAttempts">
+            <summary>
+            Gets or sets the max number of retries the client will attempt
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.RawUri">
+            <summary>
+            Gets returns the HttpRequestUrl, unescaped
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Token">
+            <summary>
+            Gets or sets returns the token use for Vault
+            </summary>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings.Timeout">
+            <summary>
+            Gets or sets returns the request timeout in milliseconds
+            </summary>
+        </member>
+        <member name="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider">
+            <summary>
+            A Spring Cloud Config Server based <see cref="T:Microsoft.Extensions.Configuration.ConfigurationProvider"/>.
+            </summary>
+        </member>
+        <member name="F:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.PREFIX">
+            <summary>
+            The prefix (<see cref="T:Microsoft.Extensions.Configuration.IConfigurationSection"/> under which all Spring Cloud Config Server
+            configuration settings (<see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings"/> are found.
+              (e.g. spring:cloud:config:env, spring:cloud:config:uri, spring:cloud:config:enabled, etc.)
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider"/> class with default
+            configuration settings. <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings"/>
+            </summary>
+            <param name="logFactory">optional logging factory</param>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.#ctor(Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider"/> class.
+            </summary>
+            <param name="settings">the configuration settings the provider uses when accessing the server.</param>
+            <param name="logFactory">optional logging factory</param>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.#ctor(Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings,System.Net.Http.HttpClient,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider"/> class.
+            </summary>
+            <param name="settings">the configuration settings the provider uses when accessing the server.</param>
+            <param name="httpClient">a HttpClient the provider uses to make requests of the server.</param>
+            <param name="logFactory">optional logging factory</param>
+        </member>
+        <member name="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.Settings">
+            <summary>
+            Gets the configuration settings the provider uses when accessing the server.
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.Load">
+            <summary>
+            Loads configuration data from the Spring Cloud Configuration Server as specified by
+            the <see cref="P:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.Settings"/>
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.GetRequestMessage(System.String)">
+            <summary>
+            Create the HttpRequestMessage that will be used in accessing the Spring Cloud Configuration server
+            </summary>
+            <param name="requestUri">the Uri used when accessing the server</param>
+            <returns>The HttpRequestMessage built from the path</returns>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.AddConfigServerClientSettings">
+            <summary>
+            Adds the client settings for the Configuration Server to the data dictionary
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.RemoteLoadAsync(System.String)">
+            <summary>
+            Asynchronously calls the Spring Cloud Configuration Server using the provided Uri and returning a
+            a task that can be used to obtain the results
+            </summary>
+            <param name="requestUri">the Uri used in accessing the Spring Cloud Configuration Server</param>
+            <returns>The task object representing the asynchronous operation</returns>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.Deserialize(System.IO.Stream)">
+            <summary>
+            Deserialize the response from the Configuration Server
+            </summary>
+            <param name="stream">the stream representing the response from the Configuration Server</param>
+            <returns>The ConfigEnvironment object representing the response from the server</returns>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.GetConfigServerUri(System.String)">
+            <summary>
+            Create the Uri that will be used in accessing the Configuration Server
+            </summary>
+            <param name="label">a label to add</param>
+            <returns>The request URI for the Configuration Server</returns>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.AddPropertySource(Steeltoe.Extensions.Configuration.ConfigServer.PropertySource)">
+            <summary>
+            Adds values from a PropertySource to the Configurtation Data dictionary managed
+            by this provider
+            </summary>
+            <param name="source">a property source to add</param>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.GetEncoded(System.String,System.String)">
+            <summary>
+            Encode the username password for a http request
+            </summary>
+            <param name="user">the username</param>
+            <param name="password">the password</param>
+            <returns>Encoded user + password</returns>
+        </member>
+        <member name="M:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerConfigurationProvider.GetHttpClient(Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerClientSettings)">
+            <summary>
+            Creates an appropriatly configured HttpClient that will be used in communicating with the
+            Spring Cloud Configuration Server
+            </summary>
+            <param name="settings">the settings used in configuring the HttpClient</param>
+            <returns>The HttpClient used by the provider</returns>
+        </member>
+        <member name="T:Steeltoe.Extensions.Configuration.ConfigServer.ConfigServerException">
+            <summary>
+            Exception thrown by Config Server client when problems occur
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\bin\Debug\netcoreapp2.0\Fortune-Teller-UI.deps.json
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\bin\Debug\netcoreapp2.0\Fortune-Teller-UI.runtimeconfig.json
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\bin\Debug\netcoreapp2.0\Fortune-Teller-UI.runtimeconfig.dev.json
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\bin\Debug\netcoreapp2.0\Fortune-Teller-UI.dll
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\bin\Debug\netcoreapp2.0\Fortune-Teller-UI.pdb
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.csprojResolveAssemblyReference.cache
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.csproj.CoreCompileInputs.cache
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.AssemblyInfoInputs.cache
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.AssemblyInfo.cs
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.dll
+C:\Users\robsc\Desktop\Steeltoe\Samples\CircuitBreaker\src\AspDotNetCore\FortuneTeller\Fortune-Teller-UI\obj\Debug\netcoreapp2.0\Fortune-Teller-UI.pdb

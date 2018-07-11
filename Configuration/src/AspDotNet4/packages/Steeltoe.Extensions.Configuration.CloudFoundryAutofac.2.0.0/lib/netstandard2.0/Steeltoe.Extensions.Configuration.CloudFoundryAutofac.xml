@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Steeltoe.Extensions.Configuration.CloudFoundryAutofac</name>
+    </assembly>
+    <members>
+        <member name="T:Steeltoe.Extensions.Configuration.CloudFoundry.CloudFoundryContainerBuilderExtensions">
+            <summary>
+            Extension methods for adding services related to CloudFoundry
+            </summary>
+        </member>
+    </members>
+</doc>

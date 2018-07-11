@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Steeltoe.Common.Autofac</name>
+    </assembly>
+    <members>
+        <member name="T:Steeltoe.Common.Configuration.Autofac.ConfigurationContainerBuilderExtensions">
+            <summary>
+            Extension methods for registering IConfiguration with the Autofac container
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Common.Configuration.Autofac.ConfigurationContainerBuilderExtensions.RegisterConfiguration(Autofac.ContainerBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Register IConfiguration and IConfgurationRoot with the Autofac container
+            </summary>
+            <param name="container">the container builder to register with</param>
+            <param name="configuration">the configuration instance to add to the container</param>
+        </member>
+        <member name="T:Steeltoe.Common.Logging.Autofac.DefaultLoggerLevelConfigureOptions">
+            <summary>
+            Default logger level configuration when using the Autofac container
+            </summary>
+        </member>
+        <member name="M:Steeltoe.Common.Logging.Autofac.DefaultLoggerLevelConfigureOptions.#ctor(Microsoft.Extensions.Logging.LogLevel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Steeltoe.Common.Logging.Autofac.DefaultLoggerLevelConfigureOptions"/> class.
+            </summary>
+            <param name="level">default log level to configure</param>
+        </member>
+    </members>
+</doc>
